@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/add_item"
+            android:id="@+id/textView"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/itemTitle"
+            android:hint="@string/title"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/itemPlace"
+            android:hint="@string/place"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemPrice"
+            android:hint="@string/price"
+            android:gravity="center" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:weightSum="1">
+
+            <com.example.gil.expensesmanager.model.DateEditText
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/itemDate"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-36dp"
+                android:layout_marginLeft="-10dp"
+                android:gravity="center"
+                android:layout_weight="0.44" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:weightSum="1">
+
+            <com.example.gil.expensesmanager.model.CategoryEditText
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/itemCategory"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:hint="@string/category"
+                android:layout_weight="0.78"
+                android:clickable="false" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/description"
+            android:inputType="textMultiLine"
+            android:gravity="center"
+            android:id="@+id/itemDescription" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="181dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:foregroundGravity="center">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:id="@+id/itemImage"
+                android:src="@drawable/add_picture"
+                android:layout_marginLeft="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:layout_marginRight="20dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>

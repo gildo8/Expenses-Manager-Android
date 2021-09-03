@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "655848185239",
+    "firebase_url": "https://resplendent-heat-4292.firebaseio.com",
+    "project_id": "resplendent-heat-4292",
+    "storage_bucket": "resplendent-heat-4292.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655848185239:android:ba8ebeccb84d7250",
+        "android_client_info": {
+          "package_name": "com.example.gil.expensesmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655848185239-okov2i2tc638s3jte6goinds4arjocbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6KUMxXYJ4tXEKMIvcE6M181JkvQ-lc78"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+CHANGED,D:\AndroidStudioProjects\ExpensesManager\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\gil\expensesmanager\model\Model$1$override.class
+CHANGED,D:\AndroidStudioProjects\ExpensesManager\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,D:\AndroidStudioProjects\ExpensesManager\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\gil\expensesmanager\model\ItemSql$override.class
+CHANGED,D:\AndroidStudioProjects\ExpensesManager\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\gil\expensesmanager\model\Model$override.class

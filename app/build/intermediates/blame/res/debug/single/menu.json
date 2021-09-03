@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main_menu.xml",
+        "source": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\build\\intermediates\\res\\merged\\debug\\menu\\home_menu.xml",
+        "source": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\src\\main\\res\\menu\\home_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\build\\intermediates\\res\\merged\\debug\\menu\\add_item_menu.xml",
+        "source": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\src\\main\\res\\menu\\add_item_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\build\\intermediates\\res\\merged\\debug\\menu\\budget_menu.xml",
+        "source": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\src\\main\\res\\menu\\budget_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\build\\intermediates\\res\\merged\\debug\\menu\\statistics_menu.xml",
+        "source": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\src\\main\\res\\menu\\statistics_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\build\\intermediates\\res\\merged\\debug\\menu\\history_menu.xml",
+        "source": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\src\\main\\res\\menu\\history_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\build\\intermediates\\res\\merged\\debug\\menu\\details_menu.xml",
+        "source": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\src\\main\\res\\menu\\details_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\build\\intermediates\\res\\merged\\debug\\menu\\shared_menu.xml",
+        "source": "D:\\AndroidStudioProjects\\ExpensesManager\\app\\src\\main\\res\\menu\\shared_menu.xml"
+    }
+]
